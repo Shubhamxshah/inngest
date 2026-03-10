@@ -2,6 +2,9 @@
 
 import { tanstackConfig } from '@tanstack/eslint-config';
 import reactHooks from 'eslint-plugin-react-hooks';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default [
   ...tanstackConfig,

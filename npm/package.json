@@ -6,7 +6,7 @@
   "scripts": {
     "prepublishOnly": "cp ../README.md .",
     "postinstall": "node postinstall.js",
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "bin": {
     "inngest-cli": "./bin/inngest",
