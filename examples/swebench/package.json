@@ -6,7 +6,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsx ./index.ts"
+    "start": "node init && tsx ./index.ts"
   },
   "keywords": [],
   "author": "",

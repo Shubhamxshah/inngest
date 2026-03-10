@@ -16,8 +16,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc && tsup",
-    "dev": "tsup --watch",
+    "build": "node init && tsc && tsup",
+    "dev": "node init && tsup --watch",
     "lint": "eslint src",
     "type-check": "tsc --noEmit",
     "test": "vitest run",

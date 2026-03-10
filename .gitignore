@@ -2,7 +2,6 @@
 dist
 *.tgz
 .eslintcache
-**/.env
 **/.env.local
 
 # Node packages
@@ -12,3 +11,4 @@ node_modules
 /.direnv/
 .DS_Store
 .cursor
+config.bat

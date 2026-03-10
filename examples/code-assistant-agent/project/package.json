@@ -4,9 +4,9 @@
   "description": "A buggy Express API for debugging demonstration",
   "main": "dist/index.js",
   "scripts": {
-    "start": "tsx src/index.ts",
-    "dev": "tsx -w src/index.ts",
-    "build": "tsc"
+    "start": "node init && tsx src/index.ts",
+    "dev": "node init && tsx -w src/index.ts",
+    "build": "node init && tsc"
   },
   "dependencies": {
     "express": "^4.18.2",

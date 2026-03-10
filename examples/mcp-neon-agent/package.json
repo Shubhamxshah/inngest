@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "tsc; node dist/index.js"
+    "start": "node init && tsc; node dist/index.js"
   },
   "dependencies": {
     "@inngest/agent-kit": "0.5.1",

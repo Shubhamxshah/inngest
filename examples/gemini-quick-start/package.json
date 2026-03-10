@@ -6,7 +6,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsx --watch ./index.ts",
+    "start": "node init && tsx --watch ./index.ts",
     "inngest-dev": "npx inngest-cli@latest dev -u http://localhost:3000/api/inngest"
   },
   "keywords": [],

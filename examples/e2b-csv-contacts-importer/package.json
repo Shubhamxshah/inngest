@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {

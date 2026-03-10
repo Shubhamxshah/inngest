@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsx --watch ./index.ts",
+    "start": "node init && tsx --watch ./index.ts",
     "inngest-dev": "npx inngest-cli@latest dev"
   },
   "type": "module",
